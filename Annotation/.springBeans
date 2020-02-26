@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beansProjectDescription>
+	<version>1</version>
+	<pluginVersion><![CDATA[3.9.7.201812201020-RELEASE]]></pluginVersion>
+	<configSuffixes>
+		<configSuffix><![CDATA[xml]]></configSuffix>
+	</configSuffixes>
+	<enableImports><![CDATA[false]]></enableImports>
+	<configs>
+		<config>src/com/qualifier/annotation/qualifier-beans.xml</config>
+		<config>src/com/stereotype/annotation/stereotype-beans.xml</config>
+		<config>src/com/required/annotation/required-beans.xml</config>
+		<config>src/com/autowire/annotation/autowire-beans.xml</config>
+		<config>src/com/scope/annotation/scope-beans.xml</config>
+		<config>src/com/lazy/annotation/lazy-bean.xml</config>
+		<config>src/com/dependsOn/annotation/depends-bean.xml</config>
+		<config>src/com/propertysource/annotation/source.xml</config>
+		<config>src/com/impResource/annotation/application-context.xml</config>
+	</configs>
+	<autoconfigs>
+	</autoconfigs>
+	<configSets>
+	</configSets>
+</beansProjectDescription>
