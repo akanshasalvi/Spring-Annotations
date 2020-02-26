@@ -2,7 +2,9 @@ package com.messagedriven.annotation;
 
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.context.ApplicationEventPublisherAware;
+import org.springframework.stereotype.Component;
 
+@Component
 public class CityController implements ApplicationEventPublisherAware{
 
 	ApplicationEventPublisher publisher;
